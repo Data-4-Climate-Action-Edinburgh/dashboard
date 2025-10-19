@@ -10,7 +10,10 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      golem::golem_welcome_page() # Remove this line to start building your UI
+      #golem::golem_welcome_page() # Remove this line to start building your UI
+      "Data 4 climate action Edinburgh",
+      "Edinburgh dashboard",
+      Sys.time()
     )
   )
 }
