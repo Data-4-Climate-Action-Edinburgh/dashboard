@@ -1,17 +1,14 @@
 Package: D4CAE.dashboard
-Title: An Amazing Shiny App
+Title: Data 4 Climate Action Edinburgh dashboard
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+    person("D4CAE", "Edinburgh", , "data4climateactionedinburgh@gmail.com", role = c("aut", "cre"))
+Description: Provides data visualisations concerning climate action in Edinburgh and climate impacts on Edinburgh.
+License: MIT + file LICENSE
 Imports: 
     config,
     golem,
     shiny
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.3
