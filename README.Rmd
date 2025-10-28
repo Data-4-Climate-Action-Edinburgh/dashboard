@@ -29,12 +29,13 @@ You can install the development version of `{D4CAE.dashboard}` like so:
 ## Run
 
 You can prepare to run the app by running: 
+```{r}
 library("devtools")
 library("golem")
 golem::document_and_reload() 
 source("./dev/01_start.R") 
 run_app()  # ie D4CAE_dashboard::run_app()
-
+```
 
 You can launch the application by running:
 
