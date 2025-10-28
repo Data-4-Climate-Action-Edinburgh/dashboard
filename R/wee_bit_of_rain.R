@@ -6,9 +6,15 @@ library(tidyverse)
 
 rainfall_to_plot <- tibble()
 
-#---- Pre-aggregated file containing all rain stations, but not averaged
-rainfall_to_plot_agg <- read_csv("./data/rainfall/aggreg_edinburgh_rainfall.csv")
+#str(rain_sta
 
+# Just read in the files rather than pre-aggregating,
+# so that future updates can just download files, then run prep script again.
+#---- Pre-aggregated file containing all rain stations, but not averaged
+#rainfall_to_plot_agg <- read_csv("./data/rainfall/aggreg_edinburgh_rainfall.csv")
+rainfall_datasets <- list()
+#station_names <- read_csv(here(rain_data_folder, "rain_stations_edinburgh.csv")) |>
+#  pull(short_name)
 
 # Version where I plot without filtering to just one station
 # So as to preserve all the rows, so user can filter on them
